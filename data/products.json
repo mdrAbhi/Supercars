@@ -1,0 +1,18 @@
+[
+    {
+        "_id":1001,
+        "description": "Mazda 2016 model",
+        "unitPrice":17000
+    },
+    {
+        "_id":1002,
+        "description": "Mazda 2017 model",
+        "unitPrice":19000
+    },
+    {
+        "_id":1002,
+        "description": "Mazda 2018 model",
+        "unitPrice":20000
+    }
+
+]

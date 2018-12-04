@@ -1,0 +1,24 @@
+[{
+    "_id": 1011,
+    "email": "s528372@nwmissouri.edu",
+    "given": "Aarjap",
+    "family": "Piya",
+    "street1": "Hp hall",
+    "street2": "",
+    "city": "Maryville",
+    "state":"MO",
+    "zip": 64468,
+    "country": "USA"
+},
+{
+"_id": 1012,
+    "email": "s527999@nwmissouri.edu",
+    "given": "Sagar",
+    "family": "Tiwari",
+    "street1": "1121 North College Drive",
+    "city": "Maryville",
+    "state":"MO",
+    "zip": 64468,
+    "country": "USA"
+}
+]

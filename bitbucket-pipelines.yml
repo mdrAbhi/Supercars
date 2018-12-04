@@ -1,0 +1,10 @@
+
+image: node:8.12.0
+
+pipelines:
+  default:
+    - step:
+      
+        script:
+        - git push https://heroku:f3926dba-2b4f-4fd8-82bc-9106c57b88b8@git.heroku.com/supercars1.git HEAD
+

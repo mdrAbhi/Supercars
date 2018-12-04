@@ -1,0 +1,38 @@
+[
+    {
+    "_id":1001,
+    "lotNumber":33,
+    "productKey": "wxyz",
+    "quantity": 1
+    },
+    {
+        "_id":1002,
+        "lotNumber":34,
+        "productKey": "bcde",
+        "quantity": 2
+    },
+    {
+        "_id":1003,
+        "lotNumber":35,
+        "productKey": "tuvw",
+        "quantity": 3
+    },
+    {
+        "_id":1004,
+        "lotNumber":36,
+        "productKey": "ghij",
+        "quantity": 4
+    },
+    {
+        "_id":1005,
+        "lotNumber":37,
+        "productKey": "lmno",
+        "quantity": 5
+    },
+    {
+        "_id":1008,
+        "lotNumber":32,
+        "productKey": "fahjal",
+        "quantity": 1
+    }
+]

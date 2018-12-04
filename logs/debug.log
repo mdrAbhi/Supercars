@@ -1,0 +1,345 @@
+2018-11-30T03:08:35.675Z - info: Environment variables loaded.
+2018-11-30T03:08:35.684Z - debug: START routing
+2018-11-30T03:08:35.712Z - debug: END routing
+2018-11-30T03:08:35.712Z - info: Loaded routing.
+2018-11-30T03:08:35.743Z - info: START seeder.
+2018-11-30T03:08:35.746Z - debug: 3 products seeded
+2018-11-30T03:08:35.746Z - info: END Seeder. Sample data read and verified.
+2018-11-30T03:08:35.747Z - debug: 2 orders seeded
+2018-11-30T03:08:35.747Z - info: END Seeder. Sample data read and verified.
+2018-11-30T03:08:35.749Z - debug: 2 customers seeded
+2018-11-30T03:08:35.749Z - info: END Seeder. Sample data read and verified.
+2018-11-30T03:08:35.750Z - debug: 6 orderLineItems seeded
+2018-11-30T03:08:35.750Z - info: END Seeder. Sample data read and verified.
+2018-11-30T03:09:51.052Z - info: Environment variables loaded.
+2018-11-30T03:09:51.060Z - debug: START routing
+2018-11-30T03:09:51.088Z - debug: END routing
+2018-11-30T03:09:51.088Z - info: Loaded routing.
+2018-11-30T03:09:51.118Z - info: START seeder.
+2018-11-30T03:09:51.120Z - debug: 3 products seeded
+2018-11-30T03:09:51.120Z - info: END Seeder. Sample data read and verified.
+2018-11-30T03:09:51.122Z - debug: 2 orders seeded
+2018-11-30T03:09:51.122Z - info: END Seeder. Sample data read and verified.
+2018-11-30T03:09:51.124Z - debug: 2 customers seeded
+2018-11-30T03:09:51.125Z - info: END Seeder. Sample data read and verified.
+2018-11-30T03:09:51.128Z - debug: 6 orderLineItems seeded
+2018-11-30T03:09:51.128Z - info: END Seeder. Sample data read and verified.
+2018-11-30T03:10:04.964Z - debug: GET /
+2018-11-30T03:10:04.968Z - debug: Request to /
+2018-11-30T03:10:06.422Z - debug: GET /orderLineItem
+2018-11-30T03:10:08.005Z - debug: GET /orderlineitem/create
+2018-11-30T03:10:08.006Z - info: Handling GET /create[object Object]
+2018-11-30T03:10:08.011Z - debug: {"lotNumber":1,"quantity":1}
+2018-11-30T03:10:13.308Z - debug: GET /orderlineitem/create
+2018-11-30T03:10:13.309Z - info: Handling GET /create[object Object]
+2018-11-30T03:10:13.310Z - debug: {"lotNumber":1,"quantity":1}
+2018-11-30T03:10:29.630Z - debug: POST /orderLineItem/save
+2018-11-30T03:10:29.657Z - info: Handling POST [object Object]
+2018-11-30T03:10:29.657Z - debug: {"orderID":"12393","lotNumber":"2834230923","productName":"08120348909","quantity":"10000"}
+2018-11-30T03:10:29.658Z - info: NEW ID undefined
+2018-11-30T03:10:29.662Z - info: SAVING NEW orderLineItem {"lotNumber":2834230923,"quantity":10000}
+2018-11-30T03:10:29.676Z - debug: GET /orderLineItem
+2018-11-30T03:10:34.085Z - debug: GET /orderLineItem/delete/
+2018-11-30T03:10:38.123Z - debug: GET /orderLineItem/delete/
+2018-11-30T03:11:34.170Z - debug: GET /orderLineItem/delete/
+2018-11-30T03:11:34.419Z - debug: GET /images/favicon-32x32.png
+2018-11-30T03:11:44.317Z - debug: GET /orderLineItem/delete/
+2018-11-30T03:12:07.503Z - debug: GET /orderLineItem/edit/
+2018-11-30T03:12:31.858Z - debug: GET /orderlineitem/create
+2018-11-30T03:12:31.859Z - info: Handling GET /create[object Object]
+2018-11-30T03:12:31.859Z - debug: {"lotNumber":1,"quantity":1}
+2018-11-30T03:13:32.973Z - debug: GET /orderlineitem/create
+2018-11-30T03:13:32.974Z - info: Handling GET /create[object Object]
+2018-11-30T03:13:32.974Z - debug: {"lotNumber":1,"quantity":1}
+2018-11-30T03:13:33.768Z - debug: GET /images/favicon-32x32.png
+2018-11-30T03:13:54.334Z - debug: POST /orderLineItem/save
+2018-11-30T03:13:54.336Z - info: Handling POST [object Object]
+2018-11-30T03:13:54.336Z - debug: {"_id":"100202","lotNumber":"3874847","productName":"28839","quantity":"10000"}
+2018-11-30T03:13:54.336Z - info: NEW ID 100202
+2018-11-30T03:13:54.337Z - info: SAVING NEW orderLineItem {"lotNumber":3874847,"quantity":10000,"_id":100202}
+2018-11-30T03:13:54.343Z - debug: GET /orderLineItem
+2018-11-30T03:13:56.655Z - debug: GET /orderLineItem/delete/100202
+2018-11-30T03:13:56.657Z - info: Handling GET /delete/:id [object Object]
+2018-11-30T03:13:56.658Z - info: RETURNING VIEW FOR {"lotNumber":3874847,"quantity":10000,"_id":100202}
+2018-11-30T03:13:58.455Z - debug: POST /orderLineItem/delete/100202
+2018-11-30T03:13:58.456Z - info: Handling DELETE request [object Object]
+2018-11-30T03:13:58.456Z - info: Handling REMOVING ID=100202
+2018-11-30T03:13:58.468Z - debug: GET /orderLineItem/delete/orderLineItem
+2018-11-30T03:13:58.469Z - info: Handling GET /delete/:id [object Object]
+2018-11-30T03:14:02.666Z - debug: GET /orderLineItem/
+2018-11-30T03:14:13.465Z - info: Environment variables loaded.
+2018-11-30T03:14:13.474Z - debug: START routing
+2018-11-30T03:14:13.501Z - debug: END routing
+2018-11-30T03:14:13.502Z - info: Loaded routing.
+2018-11-30T03:14:13.538Z - info: START seeder.
+2018-11-30T03:14:13.545Z - debug: 3 products seeded
+2018-11-30T03:14:13.545Z - info: END Seeder. Sample data read and verified.
+2018-11-30T03:14:13.547Z - debug: 2 orders seeded
+2018-11-30T03:14:13.547Z - info: END Seeder. Sample data read and verified.
+2018-11-30T03:14:13.549Z - debug: 2 customers seeded
+2018-11-30T03:14:13.549Z - info: END Seeder. Sample data read and verified.
+2018-11-30T03:14:13.550Z - debug: 6 orderLineItems seeded
+2018-11-30T03:14:13.550Z - info: END Seeder. Sample data read and verified.
+2018-11-30T03:14:14.797Z - debug: GET /
+2018-11-30T03:14:14.801Z - debug: Request to /
+2018-11-30T03:14:17.025Z - debug: GET /orderLineItem
+2018-11-30T03:14:59.974Z - debug: GET /orderLineItem/delete/1001
+2018-11-30T03:14:59.976Z - info: Handling GET /delete/:id [object Object]
+2018-11-30T03:14:59.977Z - info: RETURNING VIEW FOR {"_id":1001,"lotNumber":33,"productKey":"wxyz","quantity":1}
+2018-11-30T03:15:01.660Z - debug: POST /orderLineItem/delete/1001
+2018-11-30T03:15:01.681Z - info: Handling DELETE request [object Object]
+2018-11-30T03:15:01.681Z - info: Handling REMOVING ID=1001
+2018-11-30T03:15:01.692Z - debug: GET /orderLineItem/delete/orderLineItem
+2018-11-30T03:15:01.692Z - info: Handling GET /delete/:id [object Object]
+2018-11-30T03:15:37.955Z - info: Environment variables loaded.
+2018-11-30T03:15:37.965Z - debug: START routing
+2018-11-30T03:15:37.997Z - debug: END routing
+2018-11-30T03:15:37.997Z - info: Loaded routing.
+2018-11-30T03:15:38.029Z - info: START seeder.
+2018-11-30T03:15:38.032Z - debug: 3 products seeded
+2018-11-30T03:15:38.032Z - info: END Seeder. Sample data read and verified.
+2018-11-30T03:15:38.034Z - debug: 2 orders seeded
+2018-11-30T03:15:38.034Z - info: END Seeder. Sample data read and verified.
+2018-11-30T03:15:38.035Z - debug: 2 customers seeded
+2018-11-30T03:15:38.035Z - info: END Seeder. Sample data read and verified.
+2018-11-30T03:15:38.037Z - debug: 6 orderLineItems seeded
+2018-11-30T03:15:38.037Z - info: END Seeder. Sample data read and verified.
+2018-11-30T03:15:38.124Z - debug: GET /orderLineItem/delete/1001
+2018-11-30T03:15:38.128Z - info: Handling GET /delete/:id [object Object]
+2018-11-30T03:15:38.128Z - info: RETURNING VIEW FOR {"_id":1001,"lotNumber":33,"productKey":"wxyz","quantity":1}
+2018-11-30T03:15:39.382Z - debug: POST /orderLineItem/delete/1001
+2018-11-30T03:15:39.401Z - info: Handling DELETE request [object Object]
+2018-11-30T03:15:39.401Z - info: Handling REMOVING ID=1001
+2018-11-30T03:15:39.415Z - debug: GET /orderLineItem
+2018-11-30T03:15:41.882Z - debug: GET /orderLineItem/delete/1002
+2018-11-30T03:15:41.884Z - info: Handling GET /delete/:id [object Object]
+2018-11-30T03:15:41.884Z - info: RETURNING VIEW FOR {"_id":1002,"lotNumber":34,"productKey":"bcde","quantity":2}
+2018-11-30T03:15:42.635Z - debug: POST /orderLineItem/delete/1002
+2018-11-30T03:15:42.636Z - info: Handling DELETE request [object Object]
+2018-11-30T03:15:42.636Z - info: Handling REMOVING ID=1002
+2018-11-30T03:15:42.662Z - debug: GET /orderLineItem
+2018-11-30T03:15:43.812Z - debug: GET /orderLineItem/delete/1003
+2018-11-30T03:15:43.813Z - info: Handling GET /delete/:id [object Object]
+2018-11-30T03:15:43.814Z - info: RETURNING VIEW FOR {"_id":1003,"lotNumber":35,"productKey":"tuvw","quantity":3}
+2018-11-30T03:15:44.496Z - debug: POST /orderLineItem/delete/1003
+2018-11-30T03:15:44.497Z - info: Handling DELETE request [object Object]
+2018-11-30T03:15:44.497Z - info: Handling REMOVING ID=1003
+2018-11-30T03:15:44.503Z - debug: GET /orderLineItem
+2018-11-30T03:15:46.345Z - debug: GET /orderLineItem/edit/1004
+2018-11-30T03:15:46.346Z - info: Handling GET /edit/:id [object Object]
+2018-11-30T03:15:46.347Z - info: RETURNING VIEW FOR{"_id":1004,"lotNumber":36,"productKey":"ghij","quantity":4}
+2018-11-30T03:15:50.053Z - debug: POST /orderLineItem/save/
+2018-11-30T03:15:50.057Z - info: Handling POST [object Object]
+2018-11-30T03:15:50.057Z - debug: {"lotNumber":"36","productName":"ghijkj","quantity":"4"}
+2018-11-30T03:15:50.060Z - info: NEW ID undefined
+2018-11-30T03:15:50.065Z - info: SAVING NEW orderLineItem {"lotNumber":36,"quantity":4}
+2018-11-30T03:15:50.074Z - debug: GET /orderLineItem
+2018-11-30T03:15:56.233Z - debug: GET /orderLineItem/edit/1004
+2018-11-30T03:15:56.233Z - info: Handling GET /edit/:id [object Object]
+2018-11-30T03:15:56.233Z - info: RETURNING VIEW FOR{"_id":1004,"lotNumber":36,"productKey":"ghij","quantity":4}
+2018-11-30T03:16:01.329Z - debug: POST /orderLineItem/save/
+2018-11-30T03:16:01.330Z - info: Handling POST [object Object]
+2018-11-30T03:16:01.331Z - debug: {"lotNumber":"36","productName":"ghijkkk","quantity":"4"}
+2018-11-30T03:16:01.331Z - info: NEW ID undefined
+2018-11-30T03:16:01.332Z - info: SAVING NEW orderLineItem {"lotNumber":36,"quantity":4}
+2018-11-30T03:16:01.341Z - debug: GET /orderLineItem
+2018-11-30T03:16:04.528Z - debug: GET /orderLineItem/edit/1004
+2018-11-30T03:16:04.529Z - info: Handling GET /edit/:id [object Object]
+2018-11-30T03:16:04.529Z - info: RETURNING VIEW FOR{"_id":1004,"lotNumber":36,"productKey":"ghij","quantity":4}
+2018-11-30T03:16:08.713Z - debug: POST /orderLineItem/save/
+2018-11-30T03:16:08.715Z - info: Handling POST [object Object]
+2018-11-30T03:16:08.715Z - debug: {"lotNumber":"36","productName":"ghijkj","quantity":"4"}
+2018-11-30T03:16:08.716Z - info: NEW ID undefined
+2018-11-30T03:16:08.717Z - info: SAVING NEW orderLineItem {"lotNumber":36,"quantity":4}
+2018-11-30T03:16:08.728Z - debug: GET /orderLineItem
+2018-11-30T03:16:09.122Z - debug: GET /orderLineItem/delete/1004
+2018-11-30T03:16:09.124Z - info: Handling GET /delete/:id [object Object]
+2018-11-30T03:16:09.124Z - info: RETURNING VIEW FOR {"_id":1004,"lotNumber":36,"productKey":"ghij","quantity":4}
+2018-11-30T03:16:11.971Z - debug: GET /orderLineItem?
+2018-11-30T03:16:13.349Z - debug: GET /orderLineItem/edit/1004
+2018-11-30T03:16:13.350Z - info: Handling GET /edit/:id [object Object]
+2018-11-30T03:16:13.350Z - info: RETURNING VIEW FOR{"_id":1004,"lotNumber":36,"productKey":"ghij","quantity":4}
+2018-11-30T03:16:20.868Z - debug: GET /orderLineItem/delete/
+2018-11-30T03:16:27.808Z - debug: GET /orderLineItem/edit/1004
+2018-11-30T03:16:27.810Z - info: Handling GET /edit/:id [object Object]
+2018-11-30T03:16:27.810Z - info: RETURNING VIEW FOR{"_id":1004,"lotNumber":36,"productKey":"ghij","quantity":4}
+2018-11-30T03:16:59.247Z - debug: GET /orderLineItem/edit/1004
+2018-11-30T03:16:59.248Z - info: Handling GET /edit/:id [object Object]
+2018-11-30T03:16:59.248Z - info: RETURNING VIEW FOR{"_id":1004,"lotNumber":36,"productKey":"ghij","quantity":4}
+2018-11-30T03:16:59.492Z - debug: GET /images/favicon-32x32.png
+2018-11-30T03:17:03.159Z - debug: GET /orderLineItem?
+2018-11-30T03:17:06.029Z - debug: GET /orderLineItem/edit/1004
+2018-11-30T03:17:06.030Z - info: Handling GET /edit/:id [object Object]
+2018-11-30T03:17:06.031Z - info: RETURNING VIEW FOR{"_id":1004,"lotNumber":36,"productKey":"ghij","quantity":4}
+2018-11-30T03:17:09.738Z - debug: POST /orderLineItem/save/
+2018-11-30T03:17:09.739Z - info: Handling POST [object Object]
+2018-11-30T03:17:09.739Z - debug: {"-id":"1004","lotNumber":"36","productName":"ghijkl","quantity":"4"}
+2018-11-30T03:17:09.739Z - info: NEW ID undefined
+2018-11-30T03:17:09.740Z - info: SAVING NEW orderLineItem {"lotNumber":36,"quantity":4}
+2018-11-30T03:17:09.751Z - debug: GET /orderLineItem
+2018-11-30T03:17:53.202Z - debug: GET /orderLineItem/edit/1004
+2018-11-30T03:17:53.203Z - info: Handling GET /edit/:id [object Object]
+2018-11-30T03:17:53.204Z - info: RETURNING VIEW FOR{"_id":1004,"lotNumber":36,"productKey":"ghij","quantity":4}
+2018-11-30T03:18:27.578Z - info: Environment variables loaded.
+2018-11-30T03:18:27.586Z - debug: START routing
+2018-11-30T03:18:27.616Z - debug: END routing
+2018-11-30T03:18:27.616Z - info: Loaded routing.
+2018-11-30T03:18:27.644Z - info: START seeder.
+2018-11-30T03:18:27.647Z - debug: 3 products seeded
+2018-11-30T03:18:27.647Z - info: END Seeder. Sample data read and verified.
+2018-11-30T03:18:27.648Z - debug: 2 orders seeded
+2018-11-30T03:18:27.648Z - info: END Seeder. Sample data read and verified.
+2018-11-30T03:18:27.649Z - debug: 2 customers seeded
+2018-11-30T03:18:27.649Z - info: END Seeder. Sample data read and verified.
+2018-11-30T03:18:27.651Z - debug: 6 orderLineItems seeded
+2018-11-30T03:18:27.651Z - info: END Seeder. Sample data read and verified.
+2018-11-30T03:19:17.678Z - debug: GET /orderLineItem/edit/1004
+2018-11-30T03:19:17.681Z - info: Handling GET /edit/:id [object Object]
+2018-11-30T03:19:17.682Z - info: RETURNING VIEW FOR{"_id":1004,"lotNumber":36,"productKey":"ghij","quantity":4}
+2018-11-30T03:19:18.460Z - debug: GET /images/favicon-32x32.png
+2018-11-30T03:19:22.410Z - debug: POST /orderLineItem/save/
+2018-11-30T03:19:22.438Z - info: Handling POST [object Object]
+2018-11-30T03:19:22.438Z - debug: {"_id":"1004","lotNumber":"36","productName":"ghijkkkkk","quantity":"4"}
+2018-11-30T03:19:22.442Z - info: SAVING NEW orderLineItem {"lotNumber":36,"quantity":4,"_id":1004}
+2018-11-30T03:19:22.454Z - debug: GET /orderLineItem
+2018-11-30T03:20:32.045Z - debug: GET /orderLineItem/edit/1001
+2018-11-30T03:20:32.047Z - info: Handling GET /edit/:id [object Object]
+2018-11-30T03:20:32.047Z - info: RETURNING VIEW FOR{"_id":1001,"lotNumber":33,"productKey":"wxyz","quantity":1}
+2018-11-30T03:20:37.735Z - debug: POST /orderLineItem/save/
+2018-11-30T03:20:37.737Z - info: Handling POST [object Object]
+2018-11-30T03:20:37.737Z - debug: {"_id":"1001","lotNumber":"33","productKey":"wxyzkjkksdf","quantity":"1"}
+2018-11-30T03:20:37.737Z - info: SAVING NEW orderLineItem {"lotNumber":33,"quantity":1,"_id":1001,"productKey":"wxyzkjkksdf"}
+2018-11-30T03:20:37.746Z - debug: GET /orderLineItem
+2018-11-30T03:20:46.342Z - debug: GET /orderLineItem/delete/1001
+2018-11-30T03:20:46.344Z - info: Handling GET /delete/:id [object Object]
+2018-11-30T03:20:46.344Z - info: RETURNING VIEW FOR {"_id":1001,"lotNumber":33,"productKey":"wxyz","quantity":1}
+2018-11-30T03:20:47.640Z - debug: POST /orderLineItem/delete/1001
+2018-11-30T03:20:47.642Z - info: Handling DELETE request [object Object]
+2018-11-30T03:20:47.642Z - info: Handling REMOVING ID=1001
+2018-11-30T03:20:47.652Z - debug: GET /orderLineItem
+2018-11-30T03:21:02.053Z - debug: GET /orderLineItem
+2018-12-03T22:42:48.869Z - info: Environment variables loaded.
+2018-12-03T22:42:48.884Z - debug: START routing
+2018-12-03T22:42:48.940Z - debug: END routing
+2018-12-03T22:42:48.940Z - info: Loaded routing.
+2018-12-03T22:42:49.009Z - info: START seeder.
+2018-12-03T22:42:49.018Z - debug: 3 products seeded
+2018-12-03T22:42:49.018Z - info: END Seeder. Sample data read and verified.
+2018-12-03T22:42:49.024Z - debug: 2 orders seeded
+2018-12-03T22:42:49.025Z - info: END Seeder. Sample data read and verified.
+2018-12-03T22:42:49.030Z - debug: 2 customers seeded
+2018-12-03T22:42:49.030Z - info: END Seeder. Sample data read and verified.
+2018-12-03T22:42:49.035Z - debug: 6 orderLineItems seeded
+2018-12-03T22:42:49.035Z - info: END Seeder. Sample data read and verified.
+2018-12-03T22:42:58.382Z - debug: GET /
+2018-12-03T22:42:58.393Z - debug: Request to /
+2018-12-03T22:42:58.475Z - debug: GET /css/main.css
+2018-12-03T22:42:58.780Z - debug: GET /images/favicon-32x32.png
+2018-12-03T22:42:58.781Z - debug: GET /images/manifest.json
+2018-12-03T22:42:58.797Z - debug: GET /images/favicon-16x16.png
+2018-12-03T22:42:58.807Z - debug: GET /images/favicon-96x96.png
+2018-12-03T22:42:58.816Z - debug: GET /images/android-icon-192x192.png
+2018-12-03T22:43:01.978Z - debug: GET /Customer/edit/3
+2018-12-03T22:43:06.625Z - debug: GET /orderLineItem/edit/2
+2018-12-03T22:43:06.632Z - info: Handling GET /edit/:id [object Object]
+2018-12-03T22:43:11.441Z - debug: GET /products/details/1
+2018-12-03T22:43:14.449Z - debug: GET /order/edit/1
+2018-12-03T22:43:14.453Z - info: Handling GET /edit/:id [object Object]
+2018-12-03T22:43:17.749Z - debug: GET /order/create
+2018-12-03T22:43:17.758Z - info: Handling GET /create[object Object]
+2018-12-03T22:43:21.100Z - debug: GET /order/delete/2
+2018-12-03T22:43:21.104Z - info: Handling GET /delete/:id [object Object]
+2018-12-04T01:16:48.496Z - info: Environment variables loaded.
+2018-12-04T01:16:48.535Z - error: uncaughtException: Identifier 'express' has already been declared date=Mon Dec 03 2018 19:16:48 GMT-0600 (Central Standard Time), pid=78368, uid=null, gid=null, cwd=C:\Users\s525867\Desktop\Supercars\src, execPath=C:\Program Files\nodejs\node.exe, version=v10.11.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s525867\Desktop\Supercars\src\app.js], rss=66310144, heapTotal=62205952, heapUsed=35843248, external=19474699, loadavg=[0, 0, 0], uptime=1130188
+C:\Users\s525867\Desktop\Supercars\src\routes\index.js:30
+const express = require('express');
+      ^
+
+SyntaxError: Identifier 'express' has already been declared
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\s525867\Desktop\Supercars\src\app.js:66:16)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:279:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:752:3)
+2018-12-04T01:17:41.139Z - info: Environment variables loaded.
+2018-12-04T01:17:41.172Z - error: uncaughtException: Identifier 'express' has already been declared date=Mon Dec 03 2018 19:17:41 GMT-0600 (Central Standard Time), pid=91272, uid=null, gid=null, cwd=C:\Users\s525867\Desktop\Supercars\src, execPath=C:\Program Files\nodejs\node.exe, version=v10.11.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s525867\Desktop\Supercars\src\app.js], rss=67137536, heapTotal=62205952, heapUsed=36075488, external=19488617, loadavg=[0, 0, 0], uptime=1130240
+C:\Users\s525867\Desktop\Supercars\src\routes\index.js:30
+const express = require('express');
+      ^
+
+SyntaxError: Identifier 'express' has already been declared
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\s525867\Desktop\Supercars\src\app.js:66:16)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:279:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:752:3)
+2018-12-04T01:18:16.121Z - info: Environment variables loaded.
+2018-12-04T01:18:16.154Z - error: uncaughtException: Identifier 'express' has already been declared date=Mon Dec 03 2018 19:18:16 GMT-0600 (Central Standard Time), pid=42980, uid=null, gid=null, cwd=C:\Users\s525867\Desktop\Supercars\src, execPath=C:\Program Files\nodejs\node.exe, version=v10.11.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s525867\Desktop\Supercars\src\app.js], rss=66928640, heapTotal=61681664, heapUsed=36075288, external=19488617, loadavg=[0, 0, 0], uptime=1130275
+C:\Users\s525867\Desktop\Supercars\src\routes\index.js:30
+const express = require('express');
+      ^
+
+SyntaxError: Identifier 'express' has already been declared
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\s525867\Desktop\Supercars\src\app.js:66:16)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:279:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:752:3)
+2018-12-04T01:19:03.469Z - info: Environment variables loaded.
+2018-12-04T01:19:03.505Z - error: uncaughtException: Router.use() requires a middleware function but got a Object date=Mon Dec 03 2018 19:19:03 GMT-0600 (Central Standard Time), pid=84812, uid=null, gid=null, cwd=C:\Users\s525867\Desktop\Supercars\src, execPath=C:\Program Files\nodejs\node.exe, version=v10.11.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s525867\Desktop\Supercars\src\app.js], rss=66625536, heapTotal=62730240, heapUsed=35810480, external=19474699, loadavg=[0, 0, 0], uptime=1130322
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\s525867\Desktop\Supercars\src\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (C:\Users\s525867\Desktop\Supercars\src\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\s525867\Desktop\Supercars\src\node_modules\express\lib\application.js:217:7)
+    at Object.<anonymous> (C:\Users\s525867\Desktop\Supercars\src\app.js:67:5)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:279:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:752:3)

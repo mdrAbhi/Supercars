@@ -1,0 +1,18 @@
+[
+    {
+        "_id":1001,
+        "email":"s527999@nwmissouri.edu",
+        "datePlaced":"2018-11-13",
+        "datetobetaken":"2018-11-25",
+        "paymentType": "Credit",
+        "paid": true
+    },
+    {
+        "_id":1002,
+        "email":"sagarhazard10@gmail.com",
+        "datePlaced":"2018-11-13",
+        "datetobetaken":"2018-12-8",
+        "paymentType": "not selected yet",
+        "paid": false
+    }
+]
